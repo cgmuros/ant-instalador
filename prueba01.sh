@@ -19,10 +19,10 @@ echo "lista directorios"
 sudo -u hdfs hdfs dfs -ls /user
 
 echo "valido si existe el directorio"
-hadoop fs -test -d $dirpath
+sudo -u hdfs hdfs dfs -test -d $dirpath
 if [ $? != 0 ]
   then
-    hadoop fs -mkdir $dirpath
+    sudo -u hdfs hdfs dfs -mkdir $dirpath
     echo "directorio creado"
   else
     echo "Directory already present in HDFS"
