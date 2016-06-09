@@ -15,8 +15,6 @@ VS_ARCHIVO_LOG=${PATH_LOG}/${VS_NombreLog}_${FECHA_HORA}.log
 
 echo "creacion de directorio en hdfs"
 
-su
-cloudera
 
 
-hadoop dfs -mkdir ${PATH_HADOOP}"/prueba11111"
+sudo -u cloudera hadoop dfs -mkdir ${PATH_HADOOP}"/prueba11111"
