@@ -1,0 +1,7 @@
+<project name="Sample" default="prueba01">
+  <target name="prueba01">
+    <exec executable="/bin/bash">
+      <arg value="prueba01.sh"/>
+    </exec>
+  </target>
+</project>
