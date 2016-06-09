@@ -19,4 +19,4 @@ su
 cloudera
 
 
-hdfs dfs -mkdir ${PATH_HADOOP}"/prueba11111"
+hadoop dfs -mkdir ${PATH_HADOOP}"/prueba11111"
