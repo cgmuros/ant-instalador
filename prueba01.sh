@@ -19,10 +19,10 @@ sudo -u hdfs hdfs dfs -ls /user/cloudera
 
 echo "valido si existe el directorio"
 if sudo -u hdfs hdfs dfs -test –d /home/cloudera/prueba11111 ; then
-  echo "Directory  exists"
-else
   sudo -u hdfs hdfs dfs -mkdir /user/cloudera/prueba11111
   echo “Creating  directory”
+else
+  echo "Directory  exists"
 fi
 
 #echo "creacion de directorio en hdfs"
