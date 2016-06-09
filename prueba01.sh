@@ -7,7 +7,7 @@ clear
 PATH_HADOOP='/user/cloudera'
 PATH_LOG='/home/cloudera'
 
-$dirpath="/user/cloudera/prueba11111"
+$dirpath='/user/cloudera/prueba11111'
 
 # ---------------------------------------------------------------------
 # Parametros: variables
