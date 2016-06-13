@@ -29,6 +29,4 @@ fi
 #Copiar archivo a hdfs
 sudo -u hdfs hdfs dfs -put /home/cloudera/instalador/hive /user/cloudera/
 
-#echo "creacion de directorio en hdfs"
-#sudo -u hdfs hdfs dfs -mkdir /user/cloudera/prueba11111
 
